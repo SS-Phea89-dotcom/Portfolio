@@ -23,6 +23,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+.menu-logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    /* margin: 0 15px; */
+    font-family: "TASA Explorer", sans-serif;
+
+}
 .menu-list{
     width: 60%;
     height: 100%;
@@ -49,12 +57,13 @@ li{
     align-items: center;
     margin: 0 10px;
 }
-a{
+.menu-list a{
     text-decoration: none;
     color: black;
     font-size: 20px;
     margin: 0 15px;
     font-family: "TASA Explorer", sans-serif;
+    font-weight: bold;
 
 }
 button{
@@ -67,6 +76,18 @@ button{
     /* overflow: hidden; */
     /* background-color: blanchedalmond; */
     box-shadow: 1px 1px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 50px;
+    font-family: "TASA Explorer", sans-serif;
+    margin: 0;
+}
+.container h1:nth-child(2){
+    margin-bottom: 50px;
 }
 .footer{
     width: 100%;
