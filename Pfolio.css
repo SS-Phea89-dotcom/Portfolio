@@ -153,6 +153,10 @@ img {
     background-color: var(--white-color);
     text-align: center;
     padding: 6rem 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hero-subtitle {
@@ -172,8 +176,11 @@ img {
    ABOUT SECTION
    ================== */
 #about {
-    /* height: 500px; */
+    height: 800px;
     background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #about h2 {
     text-align: center;
@@ -278,7 +285,7 @@ img {
 /* ==================
    FOOTER
    ================== */
-.footer {
+.footers {
     background-color: var(--dark-color);
     color: var(--light-color);
     text-align: center;
