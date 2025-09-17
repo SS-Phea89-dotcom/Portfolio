@@ -104,3 +104,9 @@ button{
 .footer p{
     margin: 5px;
 }
+
+@media (max-width:1300px){
+    .container{
+        height: 820px;
+    }
+}
