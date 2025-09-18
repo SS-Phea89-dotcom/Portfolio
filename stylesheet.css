@@ -110,7 +110,7 @@ button{
         height: 800px;
     }
 }
-@media (max-width: 428px) {
+@media (max-width: 432px) {
     h1 { font-size: 20px; }
     h2 { font-size: 20px; }
     a  { font-size: 20px;}
