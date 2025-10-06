@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SS.PHEA - Portfolio</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>SS.PHEA - Exercise</title>
     <link rel="stylesheet" href="stylesheet.css">
-     <link rel="stylesheet" href="Pfolio.css">
+    <link rel="stylesheet" href="btn$any.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=TASA+Explorer:wght@400..800&family=TASA+Orbiter:wght@400..800&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="Pfolio.css">
 </head>
 <body>
-
     <div class="head-menu">
         <div class="menu-logo">
             <h2><a href="#">SS.Phea Coding</a></h2>
         </div>
+        
+        <button class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
         <div class="menu-list">
             <ul class="submenu-list">
                 <li><a href="index.html">Home</a></li>
@@ -26,40 +32,13 @@
             </ul>
         </div>
     </div>
-
-    <section id="hero" class="hero">
-        <div class="containers">
-            <h1>Hi, I'm Som Sophea (SS.Phea)</h1>
-            <p class="hero-subtitle">Junior Full Stack Web Deverloper</p>
-            <p class="hero-description">I build clean, modern, and responsive web applications.</p>
-            <a href="#projects" class="btn btn-primary">View My Work</a>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="containers">
-            <h2>About Me</h2>
-            <div class="about-content">
-                
-                <img src="Photo/myprofilephoto.JPG" alt="My Profile Photo" class="about-image">
-                <div class="about-text">
-                    <p>Hello, I am a representative of the local authority. Motivated by a passion for acquiring new skills, I have commenced my studies in website coding with Club Code. This is because I believe this expertise will enable me to develop new competencies in accordance with the policies of the Royal Government</p>
-                    <p>When I'm not coding, you can find me at coffee shops or contect me below.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!--Item list of my exercise-->
     <section id="projects" class="projects">
         <div class="containers">
-            <h2>My Projects</h2>
+            <h2>My Exercise</h2>
             <div class="project-grid">
 
                 <div class="project-card">
-                    
-
-<!-- [Image of a website project] -->
-
                     <img src="Photo/Project1.JPG" alt="Project 1 Screenshot">
                     <div class="project-info">
                         <h3>Cambodia Tourism</h3>
@@ -96,28 +75,33 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="project-card">
+                    
+                    <img src="Photo/Project3.JPG" alt="Project 3 Screenshot">
+                    <div class="project-info">
+                        <h3>Zendo Project Template</h3>
+                        <p>This project is the exercise templete when we finist the HTML and CSS Course.</p>
+                        <div class="project-links">
+                            <a href="../Portfolio/Zendo Project/homePage.html" class="btn btn-secondary" target="_blank">Live Demo</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <div class="containers">
-            <h2>Get In Touch</h2>
-            <p>I'm currently open to new opportunities. Feel free to send me a message!</p>
-            <a href="mailto:sopheasom15@gmail.com" class="btn btn-primary">Email Me</a>
-            <div class="social-links">
-                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
-            </div>
-        </div>
-    </section>
+
+
+
+
+
+
 
     <div class="footer">
         <p>Copyright &copy; 2025 SS.PHEA Coding. All rights reserved.</p>
         <p>Design With <i class="fa-solid fa-heart" style="color: red;"></i> In Cambodia</p>
     </div>
-
 </body>
+<script src="Script.js"></script>
 </html>
