@@ -4,28 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SS.PHEA - Portfolio</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="stylesheet.css">
-     <link rel="stylesheet" href="Pfolio.css">
+     <link rel="stylesheet" href="../css/Pfolio.css">
     <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=TASA+Explorer:wght@400..800&family=TASA+Orbiter:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../Bootstape/bootstrap.min.css">
 
 </head>
 <body>
 
-    <div class="head-menu">
-        <div class="menu-logo">
-            <h2><a href="#">SS.Phea Coding</a></h2>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand h4" href="#">SS.Phea Coding</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="collapsemenu">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pfolio.html">My Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="excersice.html">All my Exercise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+            </div>
         </div>
-        <div class="menu-list">
-            <ul class="submenu-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Pfolio.html">My Portfolio</a></li>
-                <li><a href="excersice.html">All my Exercise</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </div>
+    </nav>
 
     <section id="hero" class="hero">
         <div class="containers">
@@ -41,7 +55,7 @@
             <h2>About Me</h2>
             <div class="about-content">
                 
-                <img src="Photo/myprofilephoto.JPG" alt="My Profile Photo" class="about-image">
+                <img src="../../Photo/myprofilephoto.JPG" alt="My Profile Photo" class="about-image">
                 <div class="about-text">
                     <p>Hello, I am a representative of the local authority. Motivated by a passion for acquiring new skills, I have commenced my studies in website coding with Club Code. This is because I believe this expertise will enable me to develop new competencies in accordance with the policies of the Royal Government</p>
                     <p>When I'm not coding, you can find me at coffee shops or contect me below.</p>
@@ -60,7 +74,7 @@
 
 <!-- [Image of a website project] -->
 
-                    <img src="Photo/Project1.JPG" alt="Project 1 Screenshot">
+                    <img src="../../Photo/Project1.JPG" alt="Project 1 Screenshot">
                     <div class="project-info">
                         <h3>Cambodia Tourism</h3>
                         <p style="overflow-y: hidden;">Welcome to Cambodia, the "Kingdom of Wonder," a land where ancient majesty and modern vibrancy intertwine.</p>
@@ -73,7 +87,7 @@
 
                 <div class="project-card">
                     
-                    <img src="Photo/Project2.JPG" alt="Project 2 Screenshot">
+                    <img src="../../Photo/Project2.JPG" alt="Project 2 Screenshot">
                     <div class="project-info">
                         <h3>News List</h3>
                         <p>Create the Sabay News List. This is my Exercise of my first HTML and CSS Course.</p>
@@ -86,7 +100,7 @@
 
                 <div class="project-card">
                     
-                    <img src="Photo/Project3.JPG" alt="Project 3 Screenshot">
+                    <img src="../../Photo/Project3.JPG" alt="Project 3 Screenshot">
                     <div class="project-info">
                         <h3>Zendo Project Template</h3>
                         <p>This project is the exercise templete when we finist the HTML and CSS Course.</p>
@@ -120,4 +134,5 @@
     </div>
 
 </body>
+<script src="Bootstape/bootstrap.min.js"></script>
 </html>
