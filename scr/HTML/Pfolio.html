@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SS.PHEA - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="stylesheet.css">
      <link rel="stylesheet" href="../css/Pfolio.css">
@@ -14,9 +14,9 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
-            <a class="navbar-brand h4" href="#">SS.Phea Coding</a>
+            <a class="navbar-brand fs-4" href="#">SS.Phea Coding</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemenu">
                 <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="collapsemenu">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link" href="../../index.html">Home</a>
+                            <a class="nav-link" href="/index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Pfolio.html">My Portfolio</a>
+                            <a class="nav-link" href="scr/HTML/Pfolio.html">My Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="excersice.html">All my Exercise</a>
@@ -64,12 +64,12 @@
         </div>
     </section>
 
-    <section id="projects" class="projects">
+    <section id="projects" class="projects card">
         <div class="containers">
             <h2>My Projects</h2>
             <div class="project-grid">
 
-                <div class="project-card">
+                <div class="project-card card-image-top">
                     
 
 <!-- [Image of a website project] -->
@@ -79,8 +79,8 @@
                         <h3>Cambodia Tourism</h3>
                         <p style="overflow-y: hidden;">Welcome to Cambodia, the "Kingdom of Wonder," a land where ancient majesty and modern vibrancy intertwine.</p>
                         <div class="project-links">
-                            <a href="#" class="btn btn-secondary">Live Demo</a>
-                            <a href="#" class="btn btn-outline">GitHub</a>
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline-primary">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -92,8 +92,8 @@
                         <h3>News List</h3>
                         <p>Create the Sabay News List. This is my Exercise of my first HTML and CSS Course.</p>
                         <div class="project-links">
-                            <a href="#" class="btn btn-secondary">Live Demo</a>
-                            <a href="#" class="btn btn-outline">GitHub</a>
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline-primary">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -105,8 +105,8 @@
                         <h3>Zendo Project Template</h3>
                         <p>This project is the exercise templete when we finist the HTML and CSS Course.</p>
                         <div class="project-links">
-                            <a href="../Portfolio/Zendo Project/homePage.html" class="btn btn-secondary" target="_blank">Live Demo</a>
-                            <a href="#" class="btn btn-outline">GitHub</a>
+                            <a href="../Portfolio/Zendo Project/homePage.html" class="btn btn-primary" target="_blank">Live Demo</a>
+                            <a href="#" class="btn btn-outline-primary">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -128,9 +128,11 @@
         </div>
     </section>
 
-    <div class="footer">
-        <p>Copyright &copy; 2025 SS.PHEA Coding. All rights reserved.</p>
-        <p>Design With <i class="fa-solid fa-heart" style="color: red;"></i> In Cambodia</p>
+    <div class="footer navbar navbar-light bg-dark text-light text-center">
+        <div class="container d-flex flex-column align-items-center">
+        <p class="my-0">Copyright &copy; 2025 SS.PHEA Coding. All rights reserved.</p>
+        <p class="my-0">Design With <i class="fa-solid fa-heart" style="color: red;"></i> In Cambodia</p>
+        </div>
     </div>
 
 </body>
